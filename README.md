@@ -34,6 +34,17 @@ useful signal from noise-corrupted diagnostic features.
 
 **Tools:** Python, PyTorch, scikit-learn, pandas, diffusion models
 
+### [TCGA-LIHC gene-expression survival risk model](https://github.com/phoebexufan2001-cmd/tcga-lihc-survival-risk)
+
+Built and internally validated an interpretable survival-risk signature using
+public hepatocellular carcinoma transcriptomic and clinical data.
+
+- Developed a 13-gene penalized Cox model using training-only feature selection
+- Achieved a held-out test-set concordance index of 0.751
+- Stratified test patients into survival groups with log-rank p = 0.023
+
+**Tools:** Python, survival analysis, penalized Cox regression, TCGA, lifelines
+
 ## Technical Skills
 
 - **Programming:** R, data wrangling, reproducible analysis
