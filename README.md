@@ -9,7 +9,7 @@ in bioinformatics, pharmaceutical R&D analytics, and healthcare data science.
 
 ## Featured Project
 
-### Spatial transcriptomics treatment-response analysis
+### [Spatial transcriptomics treatment-response analysis](https://github.com/phoebexufan2001-cmd/spatial-transcriptomics-treatment-response)
 
 Analyzed paired pre-treatment and on-treatment Visium spatial transcriptomics
 samples using Seurat and CellChat.
@@ -21,6 +21,18 @@ samples using Seurat and CellChat.
   signaling in a representative paired analysis
 
 **Tools:** R, Seurat, CellChat, ggplot2, dplyr, spatial transcriptomics
+
+### [Tabular DDPM for robust breast cancer classification](https://github.com/phoebexufan2001-cmd/tabular-ddpm-breast-cancer-denoising)
+
+Investigated whether a denoising diffusion probabilistic model could recover
+useful signal from noise-corrupted diagnostic features.
+
+- Built a tabular DDPM with PyTorch and evaluated four corruption levels
+- Restored the clean-data baseline at moderate noise
+- Improved observed test accuracy from 95.61% to 99.12% at the highest tested
+  noise level
+
+**Tools:** Python, PyTorch, scikit-learn, pandas, diffusion models
 
 ## Technical Skills
 
